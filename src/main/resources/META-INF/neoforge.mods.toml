@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+logoFile = "lambda_logo.png"
+modId="lambda_lod_follow"
+version="1.2.0"
+displayName="Chunksmith LOD Follow"
+description = "在单人世界中，以玩家为中心从近到远补齐当前维度半径 1024 区块内的 Voxy 远景，随移动和维度切换自动更新。"
+
+[[dependencies.lambda_lod_follow]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.lambda_lod_follow]]
+modId="chunksmith"
+type="required"
+versionRange="[4.9.0,4.10)"
+ordering="AFTER"
+side="BOTH"
